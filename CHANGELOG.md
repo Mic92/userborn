@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added `expires` to set the account expiration date in `/etc/shadow` so PAM
+  denies login after that date.
 - Added a JSON schema that specifies the configuration format.
 
 ## 1.0.1
